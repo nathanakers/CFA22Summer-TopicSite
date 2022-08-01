@@ -1,0 +1,20 @@
+/* STRUCTURE */
+body {
+    display: grid;
+    grid-template: auto 1fr auto / auto;
+    min-height: 1vh;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: aliceblue;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: cadetblue;
+}
