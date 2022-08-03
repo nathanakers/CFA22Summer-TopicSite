@@ -1,0 +1,72 @@
+/* HEADER */
+#main-nav {
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main-nav ul li.logo {
+    margin-right: auto;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 1rem;
+    color: var(--color-text-on-light);
+}
+
+#main-nav a:hover {
+    background-color: var(--color-bright1-darken);
+    color: var(--color-dark);
+}
+
+
+
+/* FOOTER THINGS */
+
+
+footer nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+footer nav a {
+    display: inline-block;
+}
+
+#footer-nav li {
+    padding-left: 1rem;
+}
+
+#social-nav {
+    margin-left: 4em;
+}
+
+#social-nav li {
+    padding-left: 1em;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.profile {
+    border-radius: 2000px;
+    height: 100%;
+    max-width: 200px;
+    object-position: 80% center;
+    margin-right: 4em;
+}
+
+.hero h1 {
+    margin: 0;
+}
